@@ -1,3 +1,4 @@
+//C++ program for representation of unweighted undirected graph in matrix form using array
 #include<iostream>
 using namespace std;
 int main(){
@@ -14,7 +15,7 @@ int main(){
     
     cout << "matrix stored"<<endl;
     for(int j=0; j<=n;j++){
-       cout << "    "<<j;
+       cout << "  "<<j;
     } 
     for(int i=0; i<=n;i++){
             cout<<endl << i<< " : ";
@@ -22,5 +23,5 @@ int main(){
        cout << adj[i][j]<< " ";
     }  
     }
-    
+    return 0;
 }
